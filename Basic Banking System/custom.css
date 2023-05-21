@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background: lavender;
+}
+h1{
+    color: green;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20vh;
+}
+input{
+    position: relative;
+    left: 45vw;
+    width: 150px;
+    height: 50px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgb(18, 17, 17);
+    margin-top: 30px;
+    box-shadow: 3px white;
+    cursor: pointer;
+}
+input:hover{
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(248, 241, 241);
+    border-radius: 20px;
+    background-color: rgb(27, 26, 26);
+    color: rgb(235, 230, 230);
+    margin-top: 30px;
+    box-shadow: 3px rgb(144, 81, 81);
+    cursor: pointer;
+}
